@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing:border-box; 
+            font-family: 'Segoe UI'
+        }
+
+        form{
+            border:1px solid black;
+            width:400px;
+            margin:auto;
+            padding:10px 20px;
+        }
+
+        form input{
+            width:100%; 
+            padding:5px;
+        }
+
+        form button{
+            width:100%; 
+            font-size:16px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="font-weight:100;text-align:center;margin-top:200px;">DATA SUBMISSION -- FROM BACKEND TO FRONTEND -- AFTER SUCCESSFUL USER LOGIN </h2><br/>
+    <form action="/login" method="POST">
+        Email: <input type="text" name="email" /><br/>
+        Password: <input type="text" name="password" /><br/><br/>
+        <input type="submit">
+    </form>
+    <center>
+        <br />
+        When abc@gmail.com (password: abc@123) logs in -- only his friend list gets displayed<br />
+        When xyz@gmail.com (password: xyz@123) logs in -- only his friend list gets displayed<br />
+        <br />
+        Theoritcal Concepts Covered: <br />1. Getting Data from Server <br />and 2. Dynamic Data Display (depending on user login and requirements)<br />
+
+        
+    </center>
+</body>
+</html>
